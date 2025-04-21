@@ -5,7 +5,7 @@ namespace Patterns.Tests.Strategy;
 public class Tests
 {
     [Test]
-    public void MallardDuck()
+    public void MallardDuckDemo()
     {
         Duck mallardDuck = new MallardDuck();
         mallardDuck.PerformFly();
@@ -13,7 +13,7 @@ public class Tests
     }
 
     [Test]
-    public void ModelDuck()
+    public void ModelDuckDemo()
     {
         Duck duck = new ModelDuck();
         duck.PerformFly();
